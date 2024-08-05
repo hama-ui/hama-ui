@@ -4,7 +4,7 @@
       "path": "./docs/tsconfig.json"
     },
     {
-      "path": "./packages/preset-hama/tsconfig.json"
+      "path": "./packages/preset/tsconfig.json"
     }
   ],
   "files": []
