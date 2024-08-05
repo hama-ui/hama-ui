@@ -23,10 +23,6 @@ export default defineConfig({
           autogenerate: { directory: 'components' },
           label: 'Components',
         },
-        {
-          autogenerate: { directory: 'reference' },
-          label: 'Reference',
-        },
       ],
       social: {
         github: 'https://github.com/hama-ui/hama-ui',
