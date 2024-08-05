@@ -71,8 +71,16 @@ importers:
       sharp:
         specifier: ^0.33.4
         version: 0.33.4
+    devDependencies:
+      '@hama-ui/preset':
+        specifier: workspace:^
+        version: link:../packages/preset
 
-  examples/vite-vanilla: {}
+  examples/vite-vanilla:
+    devDependencies:
+      '@hama-ui/preset':
+        specifier: workspace:^
+        version: link:../../packages/preset
 
   packages/preset:
     dependencies:

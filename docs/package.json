@@ -16,5 +16,8 @@
     "astro": "^4.10.2",
     "astro-live-code": "^0.0.2",
     "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@hama-ui/preset": "workspace:^"
   }
 }
