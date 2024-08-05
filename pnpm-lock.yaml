@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      '@importantimport/tsconfig':
+        specifier: ^0.1.1
+        version: 0.1.1
 
   docs:
     dependencies:
@@ -462,6 +466,9 @@ packages:
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0', yarn: '>=3.2.0'}
     cpu: [x64]
     os: [win32]
+
+  '@importantimport/tsconfig@0.1.1':
+    resolution: {integrity: sha512-KVx3oyvGhGC0JEQUiR+FzriMoOLJo0X6zvqJxLg2EDVt/CxcB114A32IIfuEUfDXqrxKlWqPsmczmm1Cj4ja8w==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -2742,6 +2749,8 @@ snapshots:
 
   '@img/sharp-win32-x64@0.33.4':
     optional: true
+
+  '@importantimport/tsconfig@0.1.1': {}
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
