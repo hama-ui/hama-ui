@@ -1,5 +1,7 @@
 import starlight from '@astrojs/starlight'
 import { defineConfig } from 'astro/config'
+// @ts-expect-error missing types
+import liveCode from 'astro-live-code'
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,5 +23,6 @@ export default defineConfig({
       },
       title: 'Hama UI',
     }),
+    liveCode(),
   ],
 })
