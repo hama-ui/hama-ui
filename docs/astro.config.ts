@@ -19,9 +19,9 @@ export default defineConfig({
         },
       ],
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/hama-ui/hama-ui',
       },
-      title: 'My Docs',
+      title: 'Hama UI',
     }),
   ],
 })
