@@ -1,3 +1,5 @@
+import 'uno.css'
+
 import { setupCounter } from './counter.ts'
 
 import viteLogo from '/vite.svg'
@@ -14,7 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = html`
     </a>
     <h1>Vite + Hama UI</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button class="btn" id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
       Click on the Vite and Hama UI logos to learn more
