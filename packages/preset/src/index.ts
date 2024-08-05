@@ -4,6 +4,7 @@ import { presetMini } from '@unocss/preset-mini'
 // https://github.com/unocss/unocss/pull/4053
 import presetWebFonts from '@unocss/preset-web-fonts'
 
+import { preflights } from './preflights'
 import { shortcuts } from './shortcuts'
 
 export interface PresetHamaOptions {
@@ -12,6 +13,7 @@ export interface PresetHamaOptions {
 
 export const presetHama = definePreset((_options: PresetHamaOptions = {}) => ({
   name: '@hama-ui/preset',
+  preflights,
   presets: [
     presetMini(),
     presetAttributify(),
