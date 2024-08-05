@@ -1,8 +1,8 @@
 import type { Preflight } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
-import { tailwind } from './tailwind'
+import { reset } from './reset'
 
 export const preflights: Preflight<Theme>[] = [
-  tailwind,
+  reset,
 ]
