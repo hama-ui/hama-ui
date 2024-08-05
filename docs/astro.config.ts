@@ -3,6 +3,7 @@ import unoCSS from '@unocss/astro'
 import { defineConfig } from 'astro/config'
 // @ts-expect-error missing types
 import liveCode from 'astro-live-code'
+import restart from 'vite-plugin-restart'
 
 import unoConfig from '../uno.config'
 
@@ -33,4 +34,11 @@ export default defineConfig({
     liveCode(),
     unoCSS(unoConfig),
   ],
+  vite: { plugins: [
+    restart({
+      restart: [
+        '../packages/preset/src/**/*.ts',
+      ],
+    }),
+  ] },
 })
