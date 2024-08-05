@@ -8,11 +8,7 @@ export default defineConfig({
       favicon: '/hama-ui.png',
       sidebar: [
         {
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', slug: 'guides/example' },
-            { label: 'Getting Started', slug: 'guides/getting-started' },
-          ],
+          autogenerate: { directory: 'guides' },
           label: 'Guides',
         },
         {
