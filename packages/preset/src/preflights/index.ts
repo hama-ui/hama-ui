@@ -1,8 +1,10 @@
 import type { Preflight } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
-import { reset } from './reset'
+import { preflightReset } from './reset'
+import { preflightTheme } from './theme'
 
 export const preflights: Preflight<Theme>[] = [
-  reset,
+  preflightReset,
+  preflightTheme(),
 ]

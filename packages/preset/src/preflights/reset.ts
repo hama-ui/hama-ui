@@ -8,7 +8,7 @@ const css = String.raw
  * @see {@link https://github.com/unocss/unocss/blob/bdd82c3200c10c3ef3b922b47ebd392155ecb6c4/packages/reset/tailwind.css}
  *
  */
-export const reset: Preflight<Theme> = {
+export const preflightReset: Preflight<Theme> = {
   getCSS: () => css`
 *,
 ::before,
