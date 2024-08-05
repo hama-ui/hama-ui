@@ -19,13 +19,13 @@ const colorsToCSS = (colors: Record<string, string>, key: string) =>
 // TODO: theme option
 export const preflightTheme = (): Preflight<Theme> => ({
   getCSS: () => css`
-:root, .light {
+:root, .light, [data-theme="light"] {
   ${colorsToCSS(indigo, 'primary')}
   ${colorsToCSS(lime, 'secondary')}
   ${colorsToCSS(slate, 'neutral')}
 }
 
-.dark {
+.dark, [data-theme="dark"] {
   ${colorsToCSS(indigoDark, 'primary')}
   ${colorsToCSS(limeDark, 'secondary')}
   ${colorsToCSS(slateDark, 'neutral')}
