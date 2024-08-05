@@ -2,6 +2,9 @@
   "references": [
     {
       "path": "./docs/tsconfig.json"
+    },
+    {
+      "path": "./packages/preset-hama/tsconfig.json"
     }
   ],
   "files": []
