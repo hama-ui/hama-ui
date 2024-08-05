@@ -9,6 +9,8 @@ import unoConfig from '../uno.config'
 
 // https://astro.build/config
 export default defineConfig({
+  // TODO: remove this
+  base: '/hama-ui/',
   integrations: [
     starlight({
       favicon: '/hama-ui.png',
