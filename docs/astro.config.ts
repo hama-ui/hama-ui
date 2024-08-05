@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config'
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: '/hama-ui.png',
       sidebar: [
         {
           items: [
