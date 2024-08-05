@@ -39,7 +39,7 @@ export default defineConfig({
   vite: { plugins: [
     restart({
       restart: [
-        '../packages/preset/src/**/*.ts',
+        '../packages/preset/src/**/*.{ts,tsx}',
       ],
     }),
   ] },
