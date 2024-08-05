@@ -15,6 +15,8 @@
     "astro-eslint-parser": "^1.0.2",
     "bunchee": "^5.3.1",
     "eslint": "9.5.0",
-    "eslint-plugin-astro": "^1.2.3"
+    "eslint-plugin-astro": "^1.2.3",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
   }
 }

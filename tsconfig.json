@@ -4,6 +4,9 @@
       "path": "./docs/tsconfig.json"
     },
     {
+      "path": "./examples/vite-vanilla/tsconfig.json"
+    },
+    {
       "path": "./packages/preset/tsconfig.json"
     }
   ],

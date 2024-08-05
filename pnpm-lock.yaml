@@ -32,6 +32,12 @@ importers:
       eslint-plugin-astro:
         specifier: ^1.2.3
         version: 1.2.3(eslint@9.5.0)(typescript@5.5.4)
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
+      vite:
+        specifier: ^5.3.5
+        version: 5.3.5
 
   docs:
     dependencies:
@@ -50,17 +56,10 @@ importers:
       sharp:
         specifier: ^0.33.4
         version: 0.33.4
-      typescript:
-        specifier: ^5.5.4
-        version: 5.5.4
+
+  examples/vite-vanilla: {}
 
   packages/preset:
-    dependencies:
-      '@unocss/core':
-        specifier: ^0.61.9
-        version: 0.61.9
-
-  packages/preset-hama:
     dependencies:
       '@unocss/core':
         specifier: ^0.61.9

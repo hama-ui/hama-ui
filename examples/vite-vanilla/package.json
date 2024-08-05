@@ -1,0 +1,10 @@
+{
+  "name": "@hama-ui/example-vite-vanilla",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  }
+}

@@ -14,7 +14,6 @@
     "@astrojs/starlight": "^0.25.3",
     "astro": "^4.10.2",
     "astro-live-code": "^0.0.2",
-    "sharp": "^0.33.4",
-    "typescript": "^5.5.4"
+    "sharp": "^0.33.4"
   }
 }
