@@ -13,7 +13,8 @@
     "default": "./dist/index.js"
   },
   "scripts": {
-    "build": "bunchee"
+    "build": "bunchee",
+    "dev": "bunchee -w"
   },
   "dependencies": {
     "@unocss/core": "^0.61.9",

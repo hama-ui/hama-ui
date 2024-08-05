@@ -4,6 +4,9 @@
   "type": "module",
   "packageManager": "pnpm@9.6.0",
   "scripts": {
+    "dev": "run-p -r dev:docs dev:preset",
+    "dev:docs": "corepack pnpm -rF @hama-ui/docs dev",
+    "dev:preset": "corepack pnpm -rF @hama-ui/preset dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -18,6 +21,7 @@
     "bunchee": "^5.3.1",
     "eslint": "9.5.0",
     "eslint-plugin-astro": "^1.2.3",
+    "npm-run-all": "^4.1.5",
     "typescript": "^5.5.4",
     "vite": "^5.3.5"
   }
