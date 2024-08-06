@@ -2,12 +2,12 @@ import type { Preflight } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
 import {
-  indigoP3A as indigo,
-  indigoDarkP3A as indigoDark,
-  limeP3A as lime,
-  limeDarkP3A as limeDark,
-  slateP3A as slate,
-  slateDarkP3A as slateDark,
+  indigoP3 as indigo,
+  indigoDarkP3 as indigoDark,
+  limeP3 as lime,
+  limeDarkP3 as limeDark,
+  slateP3 as slate,
+  slateDarkP3 as slateDark,
 } from '@radix-ui/colors'
 
 const css = String.raw
