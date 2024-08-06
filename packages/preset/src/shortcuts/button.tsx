@@ -9,9 +9,11 @@ const buttonVariants = cva({
     'items-center',
     'justify-center',
     'whitespace-nowrap',
-    'rounded-md',
+    'rounded-lg',
     'text-sm',
     'font-medium',
+    'transition-colors',
+    'transition-shadow',
   ],
   compoundVariants: [
     {
@@ -31,10 +33,12 @@ const buttonVariants = cva({
     },
     variant: {
       primary: [
-        'bg-primary-10',
-        'text-primary-1',
-        'border-transparent',
-        'hover:bg-primary-11',
+        'bg-primary-7',
+        'text-neutral-12',
+        'border',
+        'border-neutral-12',
+        'hover:bg-primary-8',
+        'hover:shadow-hama1',
       ],
     },
   },
