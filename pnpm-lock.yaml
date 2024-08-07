@@ -82,8 +82,17 @@ importers:
         specifier: workspace:^
         version: link:../../packages/preset
 
+  packages/components:
+    dependencies:
+      cva:
+        specifier: 1.0.0-beta.1
+        version: 1.0.0-beta.1(typescript@5.5.4)
+
   packages/preset:
     dependencies:
+      '@hama-ui/components':
+        specifier: workspace:^
+        version: link:../components
       '@radix-ui/colors':
         specifier: ^3.0.0
         version: 3.0.0
@@ -99,9 +108,6 @@ importers:
       '@unocss/preset-web-fonts':
         specifier: ^0.61.9
         version: 0.61.9
-      cva:
-        specifier: 1.0.0-beta.1
-        version: 1.0.0-beta.1(typescript@5.5.4)
 
 packages:
 

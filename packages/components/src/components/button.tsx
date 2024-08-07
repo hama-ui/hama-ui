@@ -1,20 +1,20 @@
-import type { UserShortcuts } from '@unocss/core'
-import type { Theme } from '@unocss/preset-mini'
-
 import { cva } from 'cva'
 
-const buttonVariants = cva({
-  base: [
-    'inline-flex',
-    'items-center',
-    'justify-center',
-    'whitespace-nowrap',
-    'rounded-lg',
-    'text-sm',
-    'font-medium',
-    'transition-colors',
-    'transition-shadow',
-  ],
+/** btn-base */
+export const base = [
+  'inline-flex',
+  'items-center',
+  'justify-center',
+  'whitespace-nowrap',
+  'rounded-lg',
+  'text-sm',
+  'font-medium',
+  'transition-colors',
+  'transition-shadow',
+]
+
+export const variants = cva({
+  base,
   compoundVariants: [
     {
       size: 'md',
@@ -43,9 +43,3 @@ const buttonVariants = cva({
     },
   },
 })
-
-export const button: UserShortcuts<Theme> = [
-  {
-    btn: buttonVariants(),
-  },
-]

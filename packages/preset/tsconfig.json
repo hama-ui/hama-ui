@@ -1,7 +1,4 @@
 {
-  "extends": [
-    "@importantimport/tsconfig/app.json",
-    "@importantimport/tsconfig/parts/jsx-preserve.json"
-  ],
+  "extends": "@importantimport/tsconfig/app.json",
   "include": ["src"]
 }
