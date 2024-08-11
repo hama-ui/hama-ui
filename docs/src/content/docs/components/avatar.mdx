@@ -1,0 +1,44 @@
+---
+title: Avatar 🔴
+description: Profile picture, user initials or fallback icon.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components'
+
+> {frontmatter.description}
+
+<Tabs syncKey="framework">
+  <TabItem label="html">
+  
+```html live
+<div class="avatar">
+  <img src="https://api.dicebear.com/9.x/thumbs/svg" />
+</div>
+```
+
+  </TabItem>
+</Tabs>
+
+## Classes
+
+> TODO
+
+## Examples
+
+### Variant
+
+> TODO
+
+### Size
+
+```html live
+<div class="avatar avatar-sm">
+  <img src="https://api.dicebear.com/9.x/thumbs/svg" />
+</div>
+<div class="avatar avatar-md">
+  <img src="https://api.dicebear.com/9.x/thumbs/svg" />
+</div>
+<div class="avatar avatar-lg">
+  <img src="https://api.dicebear.com/9.x/thumbs/svg" />
+</div>
+```
