@@ -6,7 +6,6 @@ export const base = [
   'items-center',
   'rounded-full',
   'text-neutral-12',
-  'font-semibold',
   'border',
   'border-neutral-12',
   'transition-colors',
@@ -17,9 +16,9 @@ export const base = [
 ] as const
 
 export const size = {
-  lg: 'px-4 py-1.5',
-  md: 'px-3 py-1 text-sm',
-  sm: 'px-2.5 py-0.5 text-xs',
+  lg: 'px-4 py-1 font-medium',
+  md: 'px-3 py-0.75 font-medium text-sm',
+  sm: 'px-2.5 py-0.5 font-semibold text-xs',
 } as const
 
 export const variant = {
