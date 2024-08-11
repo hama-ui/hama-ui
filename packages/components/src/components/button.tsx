@@ -56,11 +56,7 @@ export const variants = cva({
     variant: 'primary',
   },
   variants: {
-    size: {
-      lg: 'h-10 px-8',
-      md: 'h-9 px-4 py-2',
-      sm: 'h-8 px-3 text-xs',
-    },
+    size,
     variant,
   },
 })
