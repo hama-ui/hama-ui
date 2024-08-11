@@ -1,5 +1,7 @@
 import { cva } from 'cva'
 
+import type { Size } from '../types/size'
+
 /** avatar-base */
 export const base = [
   'relative',
@@ -13,7 +15,7 @@ export const size = {
   lg: 'h-12 w-12',
   md: 'h-10 w-10',
   sm: 'h-8 w-8',
-} as const
+} as const satisfies Size
 
 export const variants = cva({
   base,

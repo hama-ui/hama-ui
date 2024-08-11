@@ -1,5 +1,7 @@
 import { cva } from 'cva'
 
+import type { Size } from '../types/size'
+
 /** badge-base */
 export const base = [
   'inline-flex',
@@ -19,7 +21,7 @@ export const size = {
   lg: 'px-4 py-1 font-medium',
   md: 'px-3 py-0.75 font-medium text-sm',
   sm: 'px-2.5 py-0.5 font-semibold text-xs',
-} as const
+} as const satisfies Size
 
 export const variant = {
   primary: [

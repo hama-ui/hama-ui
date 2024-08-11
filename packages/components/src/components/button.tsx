@@ -1,5 +1,7 @@
 import { cva } from 'cva'
 
+import type { Size } from '../types/size'
+
 /** btn-base */
 export const base = [
   'inline-flex',
@@ -26,7 +28,7 @@ export const size = {
   lg: 'h-10 px-8',
   md: 'h-9 px-4 py-2',
   sm: 'h-8 px-3 text-xs',
-} as const
+} as const satisfies Size
 
 export const variant = {
   primary: [
