@@ -9,6 +9,8 @@ export const base = [
   'shrink-0',
   'overflow-hidden',
   'rounded-full',
+  'border',
+  'border-neutral-12',
 ] as const
 
 export const size = {
