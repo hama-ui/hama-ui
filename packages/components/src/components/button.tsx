@@ -8,9 +8,13 @@ export const base = [
   'whitespace-nowrap',
   'rounded-md',
   'text-sm',
+  'text-neutral-12',
   'font-medium',
+  'border',
+  'border-neutral-12',
   'transition-colors',
   'transition-shadow',
+  'hover:shadow-hama1',
   'focus-visible:outline-none',
   'focus-visible:ring-1',
   'focus-visible:ring-neutral-12',
@@ -27,30 +31,16 @@ export const size = {
 export const variant = {
   primary: [
     'bg-primary-7',
-    'text-neutral-12',
-    'border',
-    'border-neutral-12',
     'hover:bg-primary-8',
-    'hover:shadow-hama1',
   ],
   secondary: [
     'bg-secondary-7',
-    'text-neutral-12',
-    'border',
-    'border-neutral-12',
     'hover:bg-secondary-8',
-    'hover:shadow-hama1',
   ],
 } as const
 
 export const variants = cva({
   base,
-  compoundVariants: [
-    {
-      size: 'md',
-      variant: 'primary',
-    },
-  ],
   defaultVariants: {
     size: 'md',
     variant: 'primary',
