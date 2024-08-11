@@ -1,0 +1,39 @@
+---
+title: Badge 🔴
+description: Stylized badge element.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components'
+
+> {frontmatter.description}
+
+<Tabs syncKey="framework">
+  <TabItem label="html">
+  
+```html live
+<div class="badge">Badge</div>
+```
+
+  </TabItem>
+</Tabs>
+
+## Classes
+
+> TODO
+
+## Examples
+
+### Variant
+
+```html live
+<div class="badge-base badge-primary">Primary</div>
+<div class="badge-base badge-secondary">Secondary</div>
+```
+
+### Size
+
+```html live
+<div class="badge badge-sm">Small</div>
+<div class="badge badge-md">Medium</div>
+<div class="badge badge-lg">Large</div>
+```
