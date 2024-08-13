@@ -2,12 +2,12 @@ import type { Preflight } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
 import {
-  blueP3 as blue,
-  blueDarkP3 as blueDark,
+  indigoP3 as indigo,
+  indigoDarkP3 as indigoDark,
   slateP3 as slate,
   slateDarkP3 as slateDark,
-  yellowP3 as yellow,
-  yellowDarkP3 as yellowDark,
+  tomatoP3 as tomato,
+  tomatoDarkP3 as tomatoDark,
 } from '@radix-ui/colors'
 
 const css = String.raw
@@ -20,14 +20,14 @@ const colorsToCSS = (colors: Record<string, string>, key: string) =>
 export const preflightTheme = (): Preflight<Theme> => ({
   getCSS: () => css`
 :root, .light, [data-theme="light"] {
-  ${colorsToCSS(blue, 'primary')};
-  ${colorsToCSS(yellow, 'secondary')};
+  ${colorsToCSS(indigo, 'primary')};
+  ${colorsToCSS(tomato, 'secondary')};
   ${colorsToCSS(slate, 'neutral')};
 }
 
 .dark, [data-theme="dark"] {
-  ${colorsToCSS(blueDark, 'primary')};
-  ${colorsToCSS(yellowDark, 'secondary')};
+  ${colorsToCSS(indigoDark, 'primary')};
+  ${colorsToCSS(tomatoDark, 'secondary')};
   ${colorsToCSS(slateDark, 'neutral')};
 }
 `,
