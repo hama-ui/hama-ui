@@ -36,8 +36,10 @@ export const variant = {
     'hover:bg-primary-8',
   ],
   secondary: [
-    'bg-secondary-7',
-    'hover:bg-secondary-8',
+    'bg-indigo-4',
+    'hover:bg-indigo-5',
+    // 'bg-secondary-9',
+    // 'hover:bg-secondary-8',
   ],
 } as const
 
