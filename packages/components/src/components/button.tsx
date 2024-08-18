@@ -9,7 +9,6 @@ export const base = [
   'justify-center',
   'whitespace-nowrap',
   'rounded-md',
-  'text-sm',
   'text-neutral-9',
   'font-medium',
   'border',
@@ -25,8 +24,8 @@ export const base = [
 ] as const
 
 export const size = {
-  lg: 'h-10 px-8',
-  md: 'h-9 px-4 py-2',
+  lg: 'h-10 px-8 text-base',
+  md: 'h-9 px-4 py-2 text-sm',
   sm: 'h-8 px-3 text-xs',
 } as const satisfies Size
 
