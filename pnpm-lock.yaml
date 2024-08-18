@@ -96,9 +96,6 @@ importers:
       '@unocss/core':
         specifier: ^0.61.9
         version: 0.61.9
-      '@unocss/preset-attributify':
-        specifier: ^0.61.9
-        version: 0.61.9
       '@unocss/preset-mini':
         specifier: ^0.61.9
         version: 0.61.9
@@ -1174,9 +1171,6 @@ packages:
 
   '@unocss/inspector@0.61.9':
     resolution: {integrity: sha512-kUcQ/h8/yAfkqL2eCGVFyB0IGSPdR0dx2HH4V+mdSMfd8yKFR/BQys3mBvqZwSZu5a0+iisFHHq9wr+/I5DtHQ==}
-
-  '@unocss/preset-attributify@0.61.9':
-    resolution: {integrity: sha512-AHlEF7PiIBz1jHZZ62+AZ1u5ITrPNL/mgN8XyKwocoAr9HH8aQ3xzUgIuEX6vfV4a8rTdawffY99BQ12msePWQ==}
 
   '@unocss/preset-mini@0.61.9':
     resolution: {integrity: sha512-qhagWfdM7ytRWf4wFfrAcdeCUCVD9wDVrM+9evAmuOnMXWEiVZCjfwhjjFu+8lM7g+38n+gi7VcrNuTiZ8fHBA==}
@@ -5075,10 +5069,6 @@ snapshots:
       '@unocss/rule-utils': 0.61.9
       gzip-size: 6.0.0
       sirv: 2.0.4
-
-  '@unocss/preset-attributify@0.61.9':
-    dependencies:
-      '@unocss/core': 0.61.9
 
   '@unocss/preset-mini@0.61.9':
     dependencies:
