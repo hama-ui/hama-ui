@@ -31,6 +31,17 @@ export const size = {
 } as const satisfies Size
 
 export const variant = {
+  ghost: [
+    'border-none',
+    'hover:border',
+    'hover:bg-black/05',
+    '!hover:shadow-none',
+  ],
+  neutral: [
+    'bg-neutral-1',
+    'hover:bg-neutral-2',
+  ],
+  outlined: [],
   primary: [
     'bg-primary-4',
     'hover:bg-primary-5',
