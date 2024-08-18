@@ -29,3 +29,15 @@ npm i -D unocss @hama-ui/preset
   
   </TabItem>
 </Tabs>
+
+## Configuration
+
+```ts
+// uno.config.ts
+import { presetHama } from '@hama-ui/preset'
+import { defineConfig } from '@unocss/vite'
+
+export default defineConfig({
+  presets: [presetHama()],
+})
+```
