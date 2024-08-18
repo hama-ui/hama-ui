@@ -10,16 +10,16 @@ export const base = [
   'whitespace-nowrap',
   'rounded-md',
   'text-sm',
-  'text-neutral-12',
+  'text-neutral-9',
   'font-medium',
   'border',
-  'border-neutral-12',
+  'border-neutral-9',
   'transition-colors',
   'transition-shadow',
   'hover:shadow-hama1',
   'focus-visible:outline-none',
   'focus-visible:ring-1',
-  'focus-visible:ring-neutral-12',
+  'focus-visible:ring-neutral-9',
   'disabled:pointer-events-none',
   'disabled:opacity-50',
 ] as const
@@ -32,14 +32,12 @@ export const size = {
 
 export const variant = {
   primary: [
-    'bg-primary-7',
-    'hover:bg-primary-8',
+    'bg-primary-4',
+    'hover:bg-primary-5',
   ],
   secondary: [
-    'bg-indigo-4',
-    'hover:bg-indigo-5',
-    // 'bg-secondary-9',
-    // 'hover:bg-secondary-8',
+    'bg-secondary-4',
+    'hover:bg-secondary-5',
   ],
 } as const
 

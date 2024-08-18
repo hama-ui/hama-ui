@@ -10,7 +10,7 @@ export const base = [
   'overflow-hidden',
   'rounded-full',
   'border',
-  'border-neutral-12',
+  'border-neutral-9',
 ] as const
 
 export const size = {

@@ -7,9 +7,9 @@ export const base = [
   'inline-flex',
   'items-center',
   'rounded-full',
-  'text-neutral-12',
+  'text-neutral-9',
   'border',
-  'border-neutral-12',
+  'border-neutral-9',
   'transition-colors',
   'focus:outline-none',
   'focus:ring-2',
@@ -25,12 +25,12 @@ export const size = {
 
 export const variant = {
   primary: [
-    'bg-primary-7',
-    'hover:bg-primary-8',
+    'bg-primary-4',
+    'hover:bg-primary-5',
   ],
   secondary: [
-    'bg-secondary-7',
-    'hover:bg-secondary-8',
+    'bg-secondary-4',
+    'hover:bg-secondary-5',
   ],
 } as const
 

@@ -9,7 +9,7 @@ import { shortcuts } from './shortcuts'
 import { type PresetHamaThemeOptions, theme } from './theme'
 
 export interface PresetHamaOptions {
-  prefix?: `${string}-`
+  // prefix?: `${string}-`
   theme?: PresetHamaThemeOptions
 }
 
@@ -22,7 +22,7 @@ export const presetHama = definePreset((options: PresetHamaOptions = {}) => ({
     presetWebFonts(),
   ],
   shortcuts,
-  theme: theme(options.theme, options.prefix),
+  theme: theme(options.theme),
 }))
 
 export default presetHama
