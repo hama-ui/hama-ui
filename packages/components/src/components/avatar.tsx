@@ -11,6 +11,8 @@ export const base = [
   'rounded-full',
   'border',
   'border-neutral-9',
+  'transition-all',
+  'hover:border-2',
 ] as const
 
 export const size = {
