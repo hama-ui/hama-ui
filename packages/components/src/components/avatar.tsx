@@ -10,7 +10,7 @@ export const base = [
   'overflow-hidden',
   'rounded-full',
   'border',
-  'border-neutral-9',
+  'border-surface-9',
   'transition-all',
   'hover:border-2',
 ] as const

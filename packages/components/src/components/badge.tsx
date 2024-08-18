@@ -7,13 +7,13 @@ export const base = [
   'inline-flex',
   'items-center',
   'rounded-full',
-  'text-neutral-9',
+  'text-surface-9',
   'border',
-  'border-neutral-9',
+  'border-surface-9',
   'transition-colors',
   'focus:outline-none',
   'focus:ring-2',
-  'focus:ring-neutral-12',
+  'focus:ring-surface-12',
   'focus:ring-offset-2',
 ] as const
 

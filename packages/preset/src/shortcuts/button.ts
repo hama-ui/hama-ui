@@ -16,7 +16,7 @@ export const button: UserShortcuts<Theme> = [
     'btn-sm': Button.size.sm,
     // variant
     /* eslint-disable perfectionist/sort-objects */
-    'btn-neutral': Button.variant.neutral.join(' '),
+    'btn-surface': Button.variant.surface.join(' '),
     'btn-primary': Button.variant.primary.join(' '),
     'btn-secondary': Button.variant.secondary.join(' '),
     'btn-outlined': Button.variant.outlined.join(' '),

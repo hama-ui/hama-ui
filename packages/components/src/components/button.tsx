@@ -9,16 +9,16 @@ export const base = [
   'justify-center',
   'whitespace-nowrap',
   'rounded-md',
-  'text-neutral-9',
+  'text-surface-9',
   'font-medium',
   'border',
-  'border-neutral-9',
+  'border-surface-9',
   'transition-colors',
   'transition-shadow',
   'hover:shadow-hama1',
   'focus-visible:outline-none',
   'focus-visible:ring-1',
-  'focus-visible:ring-neutral-9',
+  'focus-visible:ring-surface-9',
   'disabled:pointer-events-none',
   'disabled:opacity-50',
 ] as const
@@ -36,10 +36,6 @@ export const variant = {
     'hover:bg-black/05',
     '!hover:shadow-none',
   ],
-  neutral: [
-    'bg-neutral-1',
-    'hover:bg-neutral-2',
-  ],
   outlined: [],
   primary: [
     'bg-primary-4',
@@ -48,6 +44,10 @@ export const variant = {
   secondary: [
     'bg-secondary-4',
     'hover:bg-secondary-5',
+  ],
+  surface: [
+    'bg-surface-1',
+    'hover:bg-surface-2',
   ],
 } as const
 
