@@ -20,6 +20,5 @@ export const button: UserShortcuts<Theme> = [
     'btn-primary': Button.variant.primary.join(' '),
     'btn-secondary': Button.variant.secondary.join(' '),
     'btn-outlined': Button.variant.outlined.join(' '),
-    'btn-ghost': Button.variant.ghost.join(' '),
   },
 ]

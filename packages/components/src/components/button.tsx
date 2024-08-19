@@ -13,12 +13,16 @@ export const base = [
   'font-medium',
   'border',
   'border-surface-9',
-  'transition-colors',
-  'transition-shadow',
+  'transition-all',
   'hover:shadow-hama1',
+  'hover:-translate-x-1',
+  'hover:-translate-y-1',
   'focus-visible:outline-none',
   'focus-visible:ring-1',
   'focus-visible:ring-surface-9',
+  'active:translate-x-0',
+  'active:translate-y-0',
+  'active:shadow-none',
   'disabled:pointer-events-none',
   'disabled:opacity-50',
 ] as const
@@ -30,24 +34,15 @@ export const size = {
 } as const satisfies Size
 
 export const variant = {
-  ghost: [
-    'border-none',
-    'hover:border',
-    'hover:bg-black/05',
-    '!hover:shadow-none',
-  ],
   outlined: [],
   primary: [
     'bg-primary-4',
-    'hover:bg-primary-5',
   ],
   secondary: [
     'bg-secondary-4',
-    'hover:bg-secondary-5',
   ],
   surface: [
     'bg-surface-1',
-    'hover:bg-surface-2',
   ],
 } as const
 
