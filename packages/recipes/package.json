@@ -13,7 +13,19 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.mjs"
     },
+    "./components/*": {
+      "types": "./dist/components/*.d.ts",
+      "default": "./dist/components/*.mjs"
+    },
+    "./components/*.js": {
+      "types": "./dist/components/*.d.ts",
+      "default": "./dist/components/*.mjs"
+    },
     "./components/**/*": {
+      "types": "./dist/components/**/*.d.ts",
+      "default": "./dist/components/**/*.mjs"
+    },
+    "./components/**/*.js": {
       "types": "./dist/components/**/*.d.ts",
       "default": "./dist/components/**/*.mjs"
     }
