@@ -6,17 +6,17 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "default": "./dist/index.mjs"
     }
   },
   "scripts": {
-    "build": "bunchee",
-    "dev": "bunchee -w",
+    "build": "unbuild",
+    "stub": "unbuild --stub",
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
