@@ -13,7 +13,7 @@ export const base = [
   'transition-colors',
   'focus:outline-none',
   'focus:ring-2',
-  'focus:ring-surface-12',
+  'focus:ring-surface-9',
   'focus:ring-offset-2',
 ] as const
 
