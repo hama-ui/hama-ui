@@ -5,7 +5,7 @@
   "packageManager": "pnpm@9.6.0",
   "scripts": {
     "dev": "run-p -r dev:components dev:docs dev:preset",
-    "dev:components": "corepack pnpm -rF @hama-ui/components dev",
+    "dev:components": "corepack pnpm -rF @hama-ui/recipes dev",
     "dev:docs": "corepack pnpm -rF @hama-ui/docs dev",
     "dev:preset": "corepack pnpm -rF @hama-ui/preset dev",
     "lint": "eslint .",

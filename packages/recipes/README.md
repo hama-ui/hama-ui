@@ -1,9 +1,9 @@
-# @hama-ui/components
+# @hama-ui/recipes
 
 ## Install
 
 ```bash
-pnpm add -D @hama-ui/components
+pnpm add -D @hama-ui/recipes
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ pnpm add -D @hama-ui/components
 ```tsx
 import type { VariantProps } from 'cva'
 
-import { button } from '@hama-ui/components'
+import { button } from '@hama-ui/recipes'
 import { useState } from 'react'
 
 export const Counter = ({ size, variant }: VariantProps<typeof button.variants>) => {
