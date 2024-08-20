@@ -12,13 +12,14 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.1",
-    "@astrojs/starlight": "^0.25.3",
-    "@unocss/astro": "^0.61.9",
+    "@astrojs/starlight": "^0.26.1",
+    "@unocss/astro": "^0.62.2",
     "astro": "^4.10.2",
-    "astro-live-code": "^0.0.2",
+    "astro-live-code": "^0.0.3",
     "sharp": "^0.33.4"
   },
   "devDependencies": {
+    "@astrojs/react": "^3.6.2",
     "@hama-ui/preset": "workspace:^"
   }
 }
