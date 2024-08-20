@@ -16,7 +16,9 @@
   },
   "scripts": {
     "build": "bunchee",
-    "dev": "bunchee -w"
+    "dev": "bunchee -w",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "dependencies": {
     "@hama-ui/recipes": "workspace:^",
