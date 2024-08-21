@@ -20,6 +20,9 @@ importers:
       '@importantimport/tsconfig':
         specifier: ^0.1.1
         version: 0.1.1
+      '@types/eslint':
+        specifier: ^9.6.0
+        version: 9.6.0
       '@unocss/eslint-plugin':
         specifier: ^0.62.2
         version: 0.62.2(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
