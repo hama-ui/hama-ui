@@ -1,7 +1,7 @@
 import type { UserShortcuts } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
-import * as Badge from '@hama-ui/recipes/components/badge'
+import { badge as Badge } from '@hama-ui/recipes'
 
 export const badge: UserShortcuts<Theme> = [
   {

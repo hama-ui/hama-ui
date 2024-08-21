@@ -1,7 +1,7 @@
 import type { UserShortcuts } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
-import * as Avatar from '@hama-ui/recipes/components/avatar'
+import { avatar as Avatar } from '@hama-ui/recipes'
 
 export const avatar: UserShortcuts<Theme> = [
   {
