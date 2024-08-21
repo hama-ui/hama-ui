@@ -1,6 +1,6 @@
 import { cva } from 'cva'
 
-import type { Size } from '../types/size'
+import type { Size } from '../../types/size'
 
 /** avatar-base */
 export const base = [

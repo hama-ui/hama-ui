@@ -1,22 +1,22 @@
 import type { UserShortcuts } from '@unocss/core'
 import type { Theme } from '@unocss/preset-mini'
 
-import { badge as Badge } from '@hama-ui/recipes'
+import { Badge } from '@hama-ui/recipes'
 
 export const badge: UserShortcuts<Theme> = [
   {
-    'badge': Badge.variants(),
+    'badge': Badge.Root.variants(),
     'badge-base': [
-      ...Badge.base,
-      Badge.size.md,
+      ...Badge.Root.base,
+      Badge.Root.size.md,
     ].join(' '),
     // size
-    'badge-lg': Badge.size.lg,
-    'badge-md': Badge.size.md,
-    'badge-sm': Badge.size.sm,
+    'badge-lg': Badge.Root.size.lg,
+    'badge-md': Badge.Root.size.md,
+    'badge-sm': Badge.Root.size.sm,
     // variant
     // eslint-disable-next-line perfectionist/sort-objects
-    'badge-primary': Badge.variant.primary.join(' '),
-    'badge-secondary': Badge.variant.secondary.join(' '),
+    'badge-primary': Badge.Root.variant.primary.join(' '),
+    'badge-secondary': Badge.Root.variant.secondary.join(' '),
   },
 ]

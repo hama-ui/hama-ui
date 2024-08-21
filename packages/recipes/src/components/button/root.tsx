@@ -1,6 +1,6 @@
 import { cva } from 'cva'
 
-import type { Size } from '../types/size'
+import type { Size } from '../../types/size'
 
 /** btn-base */
 export const base = [
