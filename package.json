@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "corepack pnpm dev:docs",
     "dev:docs": "corepack pnpm -rF @hama-ui/docs dev",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint . --flag unstable_ts_config",
+    "lint:fix": "eslint . --fix --flag unstable_ts_config",
     "stub": "corepack pnpm -r stub"
   },
   "devDependencies": {
