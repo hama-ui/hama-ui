@@ -3,5 +3,11 @@
     "@importantimport/tsconfig/app.json",
     "@importantimport/tsconfig/parts/jsx-preserve.json"
   ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
   "include": ["src"]
 }
