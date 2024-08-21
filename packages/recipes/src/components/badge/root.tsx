@@ -2,8 +2,10 @@ import { cva } from 'cva'
 
 import type { Size } from '~/types/size'
 
+import { defineBase } from '~/utils'
+
 /** badge-base */
-export const base = [
+export const base = defineBase([
   'inline-flex',
   'items-center',
   'rounded-full',
@@ -11,11 +13,14 @@ export const base = [
   'border',
   'border-surface-9',
   'transition-colors',
-  'focus:outline-none',
-  'focus:ring-2',
-  'focus:ring-surface-9',
-  'focus:ring-offset-2',
-] as const
+], {
+  focus: [
+    'focus:outline-none',
+    'focus:ring-2',
+    'focus:ring-surface-9',
+    'focus:ring-offset-2',
+  ],
+})
 
 export const size = {
   lg: 'px-4 py-1 font-medium text-base',

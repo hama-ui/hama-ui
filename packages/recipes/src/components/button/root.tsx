@@ -2,8 +2,10 @@ import { cva } from 'cva'
 
 import type { Size } from '~/types/size'
 
+import { defineBase } from '~/utils'
+
 /** btn-base */
-export const base = [
+export const base = defineBase([
   'inline-flex',
   'items-center',
   'justify-center',
@@ -14,18 +16,27 @@ export const base = [
   'border',
   'border-surface-9',
   'transition-all',
-  'hover:shadow-hama1',
-  'hover:-translate-x-1',
-  'hover:-translate-y-1',
-  'focus-visible:outline-none',
-  'focus-visible:ring-1',
-  'focus-visible:ring-surface-9',
-  'active:translate-x-0',
-  'active:translate-y-0',
-  'active:shadow-none',
-  'disabled:pointer-events-none',
-  'disabled:opacity-50',
-] as const
+], {
+  active: [
+    'active:translate-x-0',
+    'active:translate-y-0',
+    'active:shadow-none',
+  ],
+  disabled: [
+    'disabled:pointer-events-none',
+    'disabled:opacity-50',
+  ],
+  focusVisible: [
+    'focus-visible:outline-none',
+    'focus-visible:ring-1',
+    'focus-visible:ring-surface-9',
+  ],
+  hover: [
+    'hover:shadow-hama1',
+    'hover:-translate-x-1',
+    'hover:-translate-y-1',
+  ],
+})
 
 export const size = {
   lg: 'h-10 px-8 text-base',
