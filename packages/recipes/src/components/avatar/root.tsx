@@ -1,8 +1,6 @@
 import { cva } from 'cva'
 
-import type { Size } from '~/types/size'
-
-import { defineBase } from '~/utils'
+import { defineBase, defineSize } from '~/utils'
 
 /** avatar-base */
 export const base = defineBase([
@@ -18,11 +16,11 @@ export const base = defineBase([
   hover: ['hover:border-2'],
 })
 
-export const size = {
-  lg: 'h-12 w-12',
-  md: 'h-10 w-10',
-  sm: 'h-8 w-8',
-} as const satisfies Size
+export const size = defineSize({
+  lg: ['h-12', 'w-12'],
+  md: ['h-10', 'w-10'],
+  sm: ['h-8', 'w-8'],
+})
 
 export const variants = cva({
   base,

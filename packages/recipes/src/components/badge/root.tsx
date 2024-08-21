@@ -1,8 +1,6 @@
 import { cva } from 'cva'
 
-import type { Size } from '~/types/size'
-
-import { defineBase } from '~/utils'
+import { defineBase, defineSize } from '~/utils'
 
 /** badge-base */
 export const base = defineBase([
@@ -22,11 +20,26 @@ export const base = defineBase([
   ],
 })
 
-export const size = {
-  lg: 'px-4 py-1 font-medium text-base',
-  md: 'px-3 py-0.75 font-medium text-sm',
-  sm: 'px-2.5 py-0.5 font-semibold text-xs',
-} as const satisfies Size
+export const size = defineSize({
+  lg: [
+    'px-4',
+    'py-1',
+    'font-medium',
+    'text-base',
+  ],
+  md: [
+    'px-3',
+    'py-0.75',
+    'font-medium',
+    'text-sm',
+  ],
+  sm: [
+    'px-2.5',
+    'py-0.5',
+    'font-semibold',
+    'text-xs',
+  ],
+})
 
 export const variant = {
   primary: [

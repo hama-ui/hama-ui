@@ -1,8 +1,6 @@
 import { cva } from 'cva'
 
-import type { Size } from '~/types/size'
-
-import { defineBase } from '~/utils'
+import { defineBase, defineSize } from '~/utils'
 
 /** btn-base */
 export const base = defineBase([
@@ -38,11 +36,24 @@ export const base = defineBase([
   ],
 })
 
-export const size = {
-  lg: 'h-10 px-8 text-base',
-  md: 'h-9 px-4 py-2 text-sm',
-  sm: 'h-8 px-3 text-xs',
-} as const satisfies Size
+export const size = defineSize({
+  lg: [
+    'h-10',
+    'px-8',
+    'text-base',
+  ],
+  md: [
+    'h-9',
+    'px-4',
+    'py-2',
+    'text-sm',
+  ],
+  sm: [
+    'h-8',
+    'px-3',
+    'text-xs',
+  ],
+})
 
 export const variant = {
   outlined: [],
