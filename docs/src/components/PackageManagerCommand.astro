@@ -1,0 +1,21 @@
+---
+/** modified from {@link https://github.com/biomejs/website/blob/d021c0f463beb9166651ca5164112476b34ef5d0/src/components/PackageManagerCommand.astro} */
+import { Code, TabItem, Tabs } from '@astrojs/starlight/components'
+
+const { bun, bunx, command, npm, npx, pnpm, yarn } = Astro.props
+---
+
+<Tabs syncKey="packageManager">
+  <TabItem icon="seti:npm" label="npm">
+    <Code code={`${npx ? 'npx' : 'npm'} ${npx ?? npm ?? command}`} lang="bash" />
+  </TabItem>
+  <TabItem icon="seti:yarn" label="yarn">
+    <Code code={`yarn ${yarn ?? command}`} lang="bash" />
+  </TabItem>
+  <TabItem icon="pnpm" label="pnpm">
+    <Code code={`pnpm ${pnpm ?? command}`} lang="bash" />
+  </TabItem>
+  <TabItem icon="bun" label="bun">
+    <Code code={`bun${bun ? '' : 'x'} ${bunx ?? bun ?? command}`} lang="bash" />
+  </TabItem>
+</Tabs>
