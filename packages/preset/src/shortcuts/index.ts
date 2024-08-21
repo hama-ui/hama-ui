@@ -5,8 +5,8 @@ import { avatar } from './avatar'
 import { badge } from './badge'
 import { button } from './button'
 
-export const shortcuts: UserShortcuts<Theme> = [
+export const shortcuts: UserShortcuts<Theme> = Object.values({
   avatar,
   badge,
   button,
-].flat()
+}).flat()
