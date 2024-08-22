@@ -7,7 +7,7 @@ export const avatar: UserShortcuts<Theme> = [
   {
     'avatar': Avatar.Root.variants(),
     'avatar-base': [
-      ...Avatar.Root.base,
+      Avatar.Root.base,
       Avatar.Root.size.md,
     ].join(' '),
     // size

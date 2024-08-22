@@ -7,7 +7,7 @@ export const button: UserShortcuts<Theme> = [
   {
     'btn': Button.Root.variants(),
     'btn-base': [
-      ...Button.Root.base,
+      Button.Root.base,
       Button.Root.size.md,
     ].join(' '),
     // size

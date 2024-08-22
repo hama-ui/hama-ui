@@ -7,7 +7,7 @@ export const badge: UserShortcuts<Theme> = [
   {
     'badge': Badge.Root.variants(),
     'badge-base': [
-      ...Badge.Root.base,
+      Badge.Root.base,
       Badge.Root.size.md,
     ].join(' '),
     // size
