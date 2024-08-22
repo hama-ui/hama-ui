@@ -25,6 +25,7 @@
     "@hama-ui/recipes": "workspace:^",
     "@unocss/core": "^0.62.2",
     "@unocss/preset-mini": "^0.62.2",
+    "@unocss/preset-uno": "^0.62.2",
     "@unocss/preset-web-fonts": "^0.62.2"
   }
 }
