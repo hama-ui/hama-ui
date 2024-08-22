@@ -4,10 +4,12 @@ import { defineBase, defineSize } from '~/utils'
 
 /** avatar-base */
 export const base = defineBase([
-  'relative',
-  'flex',
-  'shrink-0',
+  // 'relative',
+  'inline-flex',
+  'items-center',
+  'justify-center',
   'overflow-hidden',
+  'align-middle',
   'rounded-full',
   'border',
   'border-surface-9',
