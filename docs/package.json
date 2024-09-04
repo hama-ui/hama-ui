@@ -11,12 +11,12 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.1",
-    "@astrojs/starlight": "^0.26.1",
-    "@unocss/astro": "^0.62.2",
-    "astro": "^4.10.2",
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/starlight": "^0.26.2",
+    "@unocss/astro": "catalog:",
+    "astro": "^4.15.2",
     "astro-live-code": "^0.0.3",
-    "sharp": "^0.33.4"
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@astrojs/react": "^3.6.2",

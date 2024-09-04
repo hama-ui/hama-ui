@@ -2,7 +2,7 @@
   "name": "@hama-ui/workspace",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.9.0",
   "scripts": {
     "dev": "run-p -r dev:packages dev:docs",
     "dev:docs": "corepack pnpm -rF @hama-ui/docs dev",
@@ -12,21 +12,21 @@
     "stub": "corepack pnpm -r stub"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.26.1",
+    "@antfu/eslint-config": "^3.2.0",
     "@hama-ui/preset": "workspace:^",
     "@importantimport/eslint-config": "1.0.0-alpha.1",
     "@importantimport/tsconfig": "^0.1.1",
-    "@types/eslint": "^9.6.0",
-    "@types/node": "^22.4.2",
-    "@unocss/eslint-plugin": "^0.62.2",
-    "@unocss/vite": "^0.62.2",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.5.3",
+    "@unocss/eslint-plugin": "catalog:",
+    "@unocss/vite": "catalog:",
     "astro-eslint-parser": "^1.0.2",
-    "bunchee": "^5.3.2",
-    "eslint": "^9.9.0",
+    "bunchee": "^5.4.0",
+    "eslint": "^9.9.1",
     "eslint-plugin-astro": "^1.2.3",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.5.4",
-    "vite": "^5.4.2",
+    "vite": "^5.4.3",
     "vite-plugin-restart": "^0.4.1",
     "vitest": "^2.0.5"
   }
