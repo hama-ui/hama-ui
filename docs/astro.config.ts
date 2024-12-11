@@ -13,7 +13,12 @@ export default defineConfig({
   base: '/hama-ui/',
   integrations: [
     starlight({
-      favicon: '/hama-ui.png',
+      favicon: '/paper-frog.svg',
+      logo: {
+        alt: 'Hama UI',
+        replacesTitle: true,
+        src: './public/paper-frog.svg',
+      },
       sidebar: [
         {
           autogenerate: { directory: 'guides' },
