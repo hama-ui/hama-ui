@@ -2,7 +2,7 @@
   "name": "@hama-ui/workspace",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "dev": "run-p -r dev:packages dev:docs",
     "dev:docs": "corepack pnpm -rF @hama-ui/docs dev",
