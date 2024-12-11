@@ -1,6 +1,10 @@
-# Hama UI
+<div align="center">
 
-Framework-agnostic UnoCSS component library.
+<img width="192" height="192" src="./docs/public/paper-frog.svg" alt="Hama UI">
+
+**Framework-agnostic UnoCSS component library.**
+
+</div>
 
 ## Credits
 
